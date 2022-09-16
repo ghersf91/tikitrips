@@ -1,8 +1,9 @@
 Project URL: https://tikitrips.herokuapp.com/
 
+Carpooling app created by Javier Ruiz and Ghers Fisman, built with Node.js, MongoDB, Express, HTML, CSS and Google Maps API.
 
+Users can create an account as either driver or passenger. The drivers can create trips which passengers can join, and then rate the driver.
 
-These endpoints are available to everyone, no need to log in, except for the bottom three that re only available to owner & admin
                  
 | Route              | HTTP Verb     | Description                |
 | -----------        | -----------   | -----------                |
@@ -46,6 +47,3 @@ These endpoints are available to everyone, no need to log in, except for the bot
 | `/users/:id/myprofile/car/:id/edit`   | PUT/PATCH     | Update a specific car                                      |
 | `/users/:id/myprofile/car/:id/delete` | DELETE        | Delete a specific car                                      | -->
 
-
-
-# blabla2
